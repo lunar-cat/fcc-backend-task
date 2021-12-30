@@ -9,7 +9,7 @@
 		"cookie-parser": "^1.4.3",
 		"dotenv": "^10.0.0",
 		"express": "^4.14.0",
-		"fcc-express-bground": "freeCodeCamp/fcc-express-bground-pkg"
+		"fcc-express-bground": "github:freeCodeCamp/fcc-express-bground-pkg"
 	},
 	"main": "server.js",
 	"scripts": {
