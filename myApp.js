@@ -2,12 +2,11 @@ var express = require('express');
 var bodyParser = require('body-parser');
 var app = express();
 require('dotenv').config();
-/* Express evaluates functions in the order they appear in the code */
+
 app.use((req, res, next) => {
   console.log(`${req.method} ${req.path} - ${req.ip}`);
   next();
 });
-
 const htmlPath = __dirname + '/views/index.html';
 app.get('/', (req, res) => {
   res.sendFile(htmlPath);
