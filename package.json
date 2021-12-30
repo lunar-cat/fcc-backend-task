@@ -10,7 +10,8 @@
 	},
 	"main": "server.js",
 	"scripts": {
-		"start": "nodemon server.js"
+		"watch": "nodemon server.js",
+		"start": "node server.js"
 	},
 	"devDependencies": {
 		"nodemon": "^2.0.15"
